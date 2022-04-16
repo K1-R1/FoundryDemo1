@@ -1,0 +1,57 @@
+{
+  "abi": [],
+  "bytecode": {
+    "object": "0x6080604052348015600f57600080fd5b50603f80601d6000396000f3fe6080604052600080fdfea26469706673582212203a570816b305a6535df6652e6476dc617f701851001bd2479509c1ac299ed94b64736f6c634300080d0033",
+    "sourceMap": "65:20:2:-:0;;;;;;;;;;;;;;;;;;;",
+    "linkReferences": {}
+  },
+  "deployedBytecode": {
+    "object": "0x6080604052600080fdfea26469706673582212203a570816b305a6535df6652e6476dc617f701851001bd2479509c1ac299ed94b64736f6c634300080d0033",
+    "sourceMap": "65:20:2:-:0;;;;;",
+    "linkReferences": {}
+  },
+  "ast": {
+    "absolutePath": "C:\\Users\\Kyran\\OWD\\Courses\\Solidity\\23_foundry_demos\\Demo1\\src\\Contract.sol",
+    "exportedSymbols": {
+      "Contract": [
+        1789
+      ]
+    },
+    "id": 1790,
+    "license": "UNLICENSED",
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 1788,
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".13"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "39:24:2"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "Contract",
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "id": 1789,
+        "linearizedBaseContracts": [
+          1789
+        ],
+        "name": "Contract",
+        "nameLocation": "74:8:2",
+        "nodeType": "ContractDefinition",
+        "nodes": [],
+        "scope": 1790,
+        "src": "65:20:2",
+        "usedErrors": []
+      }
+    ],
+    "src": "39:47:2"
+  }
+}
