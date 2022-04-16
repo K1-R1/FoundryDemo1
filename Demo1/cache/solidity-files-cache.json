@@ -46,51 +46,10 @@
         }
       }
     },
-    "C:\\Users\\Kyran\\OWD\\Courses\\Solidity\\23_foundry_demos\\Demo1\\lib/openzeppelin-contracts/contracts/token/ERC20/ERC20.sol": {
-      "lastModificationDate": 1650130342570,
-      "contentHash": "1fbe662e64bcc040ea5bb816ecd3d8b1",
-      "sourceName": "lib/openzeppelin-contracts/contracts/token/ERC20/ERC20.sol",
-      "solcConfig": {
-        "settings": {
-          "optimizer": {
-            "enabled": true,
-            "runs": 200
-          },
-          "metadata": {
-            "bytecodeHash": "ipfs"
-          },
-          "outputSelection": {
-            "*": {
-              "": [
-                "ast"
-              ],
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers"
-              ]
-            }
-          },
-          "evmVersion": "london"
-        }
-      },
-      "imports": [
-        "lib\\openzeppelin-contracts\\contracts\\token\\ERC20\\IERC20.sol",
-        "lib\\openzeppelin-contracts\\contracts\\token\\ERC20\\extensions\\IERC20Metadata.sol",
-        "lib\\openzeppelin-contracts\\contracts\\utils\\Context.sol"
-      ],
-      "versionRequirement": "^0.8.0",
-      "artifacts": {
-        "ERC20": {
-          "0.8.13+commit.abaa5c0e.Windows.msvc": "ERC20.sol\\ERC20.json"
-        }
-      }
-    },
-    "C:\\Users\\Kyran\\OWD\\Courses\\Solidity\\23_foundry_demos\\Demo1\\lib\\openzeppelin-contracts\\contracts\\token\\ERC20\\IERC20.sol": {
+    "C:\\Users\\Kyran\\OWD\\Courses\\Solidity\\23_foundry_demos\\Demo1\\lib/openzeppelin-contracts/contracts/token/ERC20/IERC20.sol": {
       "lastModificationDate": 1650130342571,
       "contentHash": "b7f89987582e6eb66e7a8ac7e1502341",
-      "sourceName": "lib\\openzeppelin-contracts\\contracts\\token\\ERC20\\IERC20.sol",
+      "sourceName": "lib/openzeppelin-contracts/contracts/token/ERC20/IERC20.sol",
       "solcConfig": {
         "settings": {
           "optimizer": {
@@ -121,82 +80,6 @@
       "artifacts": {
         "IERC20": {
           "0.8.13+commit.abaa5c0e.Windows.msvc": "IERC20.sol\\IERC20.json"
-        }
-      }
-    },
-    "C:\\Users\\Kyran\\OWD\\Courses\\Solidity\\23_foundry_demos\\Demo1\\lib\\openzeppelin-contracts\\contracts\\token\\ERC20\\extensions\\IERC20Metadata.sol": {
-      "lastModificationDate": 1650130342577,
-      "contentHash": "7e3e6992395030ccb281dc67c1a8ae2f",
-      "sourceName": "lib\\openzeppelin-contracts\\contracts\\token\\ERC20\\extensions\\IERC20Metadata.sol",
-      "solcConfig": {
-        "settings": {
-          "optimizer": {
-            "enabled": true,
-            "runs": 200
-          },
-          "metadata": {
-            "bytecodeHash": "ipfs"
-          },
-          "outputSelection": {
-            "*": {
-              "": [
-                "ast"
-              ],
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers"
-              ]
-            }
-          },
-          "evmVersion": "london"
-        }
-      },
-      "imports": [
-        "lib\\openzeppelin-contracts\\contracts\\token\\ERC20\\IERC20.sol"
-      ],
-      "versionRequirement": "^0.8.0",
-      "artifacts": {
-        "IERC20Metadata": {
-          "0.8.13+commit.abaa5c0e.Windows.msvc": "IERC20Metadata.sol\\IERC20Metadata.json"
-        }
-      }
-    },
-    "C:\\Users\\Kyran\\OWD\\Courses\\Solidity\\23_foundry_demos\\Demo1\\lib\\openzeppelin-contracts\\contracts\\utils\\Context.sol": {
-      "lastModificationDate": 1650130342600,
-      "contentHash": "e7f98c33ad1d39d8a6661bf0804fae36",
-      "sourceName": "lib\\openzeppelin-contracts\\contracts\\utils\\Context.sol",
-      "solcConfig": {
-        "settings": {
-          "optimizer": {
-            "enabled": true,
-            "runs": 200
-          },
-          "metadata": {
-            "bytecodeHash": "ipfs"
-          },
-          "outputSelection": {
-            "*": {
-              "": [
-                "ast"
-              ],
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers"
-              ]
-            }
-          },
-          "evmVersion": "london"
-        }
-      },
-      "imports": [],
-      "versionRequirement": "^0.8.0",
-      "artifacts": {
-        "Context": {
-          "0.8.13+commit.abaa5c0e.Windows.msvc": "Context.sol\\Context.json"
         }
       }
     },
@@ -238,8 +121,8 @@
       }
     },
     "C:\\Users\\Kyran\\OWD\\Courses\\Solidity\\23_foundry_demos\\Demo1\\src\\StakeContract.sol": {
-      "lastModificationDate": 1650130261040,
-      "contentHash": "4bf215a9fd7a726ed8c781b76ff44dc1",
+      "lastModificationDate": 1650131681412,
+      "contentHash": "f57beb85804cf1fd7e6523ae89d0f476",
       "sourceName": "src\\StakeContract.sol",
       "solcConfig": {
         "settings": {
@@ -267,10 +150,7 @@
         }
       },
       "imports": [
-        "lib/openzeppelin-contracts/contracts/token/ERC20/ERC20.sol",
-        "lib\\openzeppelin-contracts\\contracts\\token\\ERC20\\IERC20.sol",
-        "lib\\openzeppelin-contracts\\contracts\\token\\ERC20\\extensions\\IERC20Metadata.sol",
-        "lib\\openzeppelin-contracts\\contracts\\utils\\Context.sol"
+        "lib/openzeppelin-contracts/contracts/token/ERC20/IERC20.sol"
       ],
       "versionRequirement": "^0.8.13",
       "artifacts": {

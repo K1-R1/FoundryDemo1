@@ -1,28 +1,28 @@
 {
   "abi": [],
   "bytecode": {
-    "object": "0x6080604052348015600f57600080fd5b50603f80601d6000396000f3fe6080604052600080fdfea26469706673582212203a570816b305a6535df6652e6476dc617f701851001bd2479509c1ac299ed94b64736f6c634300080d0033",
-    "sourceMap": "65:20:2:-:0;;;;;;;;;;;;;;;;;;;",
+    "object": "0x6080604052348015600f57600080fd5b50603f80601d6000396000f3fe6080604052600080fdfea2646970667358221220344db46934074434deed2a1377ff5aaa026ce0d3dd4f860ec29607f423b1544b64736f6c634300080d0033",
+    "sourceMap": "65:20:4:-:0;;;;;;;;;;;;;;;;;;;",
     "linkReferences": {}
   },
   "deployedBytecode": {
-    "object": "0x6080604052600080fdfea26469706673582212203a570816b305a6535df6652e6476dc617f701851001bd2479509c1ac299ed94b64736f6c634300080d0033",
-    "sourceMap": "65:20:2:-:0;;;;;",
+    "object": "0x6080604052600080fdfea2646970667358221220344db46934074434deed2a1377ff5aaa026ce0d3dd4f860ec29607f423b1544b64736f6c634300080d0033",
+    "sourceMap": "65:20:4:-:0;;;;;",
     "linkReferences": {}
   },
   "ast": {
     "absolutePath": "C:\\Users\\Kyran\\OWD\\Courses\\Solidity\\23_foundry_demos\\Demo1\\src\\Contract.sol",
     "exportedSymbols": {
       "Contract": [
-        1789
+        1867
       ]
     },
-    "id": 1790,
+    "id": 1868,
     "license": "UNLICENSED",
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 1788,
+        "id": 1866,
         "literals": [
           "solidity",
           "^",
@@ -30,7 +30,7 @@
           ".13"
         ],
         "nodeType": "PragmaDirective",
-        "src": "39:24:2"
+        "src": "39:24:4"
       },
       {
         "abstract": false,
@@ -39,19 +39,19 @@
         "contractDependencies": [],
         "contractKind": "contract",
         "fullyImplemented": true,
-        "id": 1789,
+        "id": 1867,
         "linearizedBaseContracts": [
-          1789
+          1867
         ],
         "name": "Contract",
-        "nameLocation": "74:8:2",
+        "nameLocation": "74:8:4",
         "nodeType": "ContractDefinition",
         "nodes": [],
-        "scope": 1790,
-        "src": "65:20:2",
+        "scope": 1868,
+        "src": "65:20:4",
         "usedErrors": []
       }
     ],
-    "src": "39:47:2"
+    "src": "39:47:4"
   }
 }
