@@ -1,7 +1,6 @@
-# FoundryDemos
+# FoundryDemo1
 
-A Repo of simple demos utilising the Foundry toolkit.
+A simple Demo that uses Foundry to test and deploy solidity smart contracts.
 
-- demo1: pc
-- demo2: book NFT
-- demo3: book docker
+### Inspired by
+- [PatrickAlphaC/foundry-play](https://github.com/PatrickAlphaC/foundry-play)
